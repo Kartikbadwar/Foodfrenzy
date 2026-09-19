@@ -4,7 +4,7 @@ phases:
   install:
     commands:
       - echo "Maven & Java versions"
-      - mvn -v || true
+      - mvn -v || true 
       - java -version || true
 
   build:
